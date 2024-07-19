@@ -8,7 +8,7 @@ const Experience = () => {
     className="text-4xl lg:text-5xl my-20 text-center text-purple-700">Experience
     </motion.h2>
 
-    <div>
+    <div className="px-6">
         {EXPERIENCES.map((experience,index)=>(
             <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
 
