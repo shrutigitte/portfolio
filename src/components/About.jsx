@@ -10,12 +10,12 @@ const About = () => {
             <motion.div
             whileInView={{opacity:1, x:0}}  initial={{opacity:0,x:-100}} transition={{duration:0.5,delay:1.1}}
             className="items-center justify-center">
-                <img className="rounded-3xl ml-4" src={aboutIMG} alt="Coding" />
+                <img className="lg:rounded-3xl lg:p-0 mr-10 p-6" src={aboutIMG} alt="Coding" />
             </motion.div>
             <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0 , x:100}} transition={{duration:0.5}} 
             className="w-full lg:w-1/2">
                 <div className="flex ">
-                    <p className="text-justify px-4 lg:px-10 lg:ml-10 max-w-xl py-6 "> <br /> {ABOUT_TEXT}</p>
+                    <p className="text-justify px-4 lg:px-10 text-violet-600 lg:ml-10 max-w-xl py-6 "> <br /> {ABOUT_TEXT}</p>
                 </div>
             </motion.div>
         </div>

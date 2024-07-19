@@ -26,7 +26,7 @@ const MainHero = () => {
                 
                 <motion.p variants={container(0.9)} 
                 initial="hidden" animate="visible"
-                className='my-2 max-w-xl py-6 font-medium tracking-tighter text-violet-700'>
+                className='my-2 max-w-xl py-6 px-6 font-medium tracking-tighter text-violet-700'>
                     {HERO_CONTENT}
                 </motion.p>
             </div>
@@ -34,7 +34,7 @@ const MainHero = () => {
         <div className='w-full lg:w-1/2 lg:p-8'>
             <div className='flex justify-center'>
                 <motion.img initial={{x:100,opacity:0}} animate={{x:-100,opacity:1}} transition={{duration:0.8,delay:1.2}}
-                className='rounded-xl mt-5' src={profilepic} height={600} width={500} alt="" />
+                className='rounded-3xl pl-32 mt-5 lg:p-2 ' src={profilepic} height={600} width={500} alt="" />
             </div>
         </div>
     </div>
