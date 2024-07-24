@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-2.jpg";
+import project1 from "../assets/projects/voguevibes.png";
 import project2 from "../assets/projects/SustainSphere.png";
 import project3 from "../assets/projects/Portfolio.png";
 
@@ -26,7 +26,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "VogueVibes-Full Stack E-Commerce Website",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
