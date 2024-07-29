@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/voguevibes.png";
 import project2 from "../assets/projects/SustainSphere.png";
-import project3 from "../assets/projects/Portfolio.png";
+import project3 from "../assets/projects/FiTrack-a-fitnessTracker.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -31,6 +31,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    link: "https://github.com/shrutigitte/VogueVibes-a-Full-Stack-E-commerce-/tree/main/frontend",
   },
   {
     title: "SustainSphere",
@@ -38,13 +39,15 @@ export const PROJECTS = [
     description:
       "An application for managing and tracking ESG parameters, with features such as detailed report analysis, awareness, and progress tracking.",
     technologies: ["HTML", "React", "TailwindCSS", "Express","Nodejs","TypeScript"],
+    link:"https://github.com/shrutigitte/SustainSphere",
   },
   {
-    title: "Portfolio Website",
+    title: "FiTrack-a fitness tracker",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "TailwindCSS", "Angular", "NG-Zorro"],
+    link:"https://github.com/shrutigitte/FiTrack-a-fitness-Tracker"
   },
   
 ];
