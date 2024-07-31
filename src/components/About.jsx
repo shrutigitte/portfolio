@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import aboutIMG from "../assets/about.jpg"
+import aboutIMG from "../assets/aboutimg.jpeg"
 import { ABOUT_TEXT } from "../constants";
 
 const About = () => {
@@ -10,7 +10,7 @@ const About = () => {
             <motion.div
             whileInView={{opacity:1, x:0}}  initial={{opacity:0,x:-100}} transition={{duration:0.5,delay:1.1}}
             className="items-center justify-center">
-                <img className="lg:rounded-3xl lg:p-0 mr-10 p-6" src={aboutIMG} alt="Coding" />
+                <img className="lg:rounded-3xl rounded-2xl h-64 lg:p-0 mr-10 p-6" src={aboutIMG} alt="Coding" />
             </motion.div>
             <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0 , x:100}} transition={{duration:0.5}} 
             className="w-full lg:w-1/2">
