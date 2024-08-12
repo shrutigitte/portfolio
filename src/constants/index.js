@@ -17,7 +17,7 @@ export const EXPERIENCES = [
   {
     year: "June 2023 - Present",
     role: " Open Source Frontend Developer",
-    company: "Open Collect",
+    company: "Open Collective,Anki,ResQSyncWeb",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with Open Source backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "React,js","Node,js","Next.js"],
   },
