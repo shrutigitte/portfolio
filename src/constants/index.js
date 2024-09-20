@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/voguevibes.png";
 import project2 from "../assets/projects/SustainSphere.png";
 import project3 from "../assets/projects/FiTrack-a-fitnessTracker.png";
+import project4 from '../assets/projects/AcoNews.png'
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -45,9 +46,16 @@ export const PROJECTS = [
     title: "FiTrack-a fitness tracker",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A health Tracking Website where you can track your performance and also compare and sort ",
     technologies: ["HTML", "TailwindCSS", "Angular", "NG-Zorro"],
     link:"https://github.com/shrutigitte/FiTrack-a-fitness-Tracker"
+  },{
+    title: "AcoNews",
+    image: project4,
+    description:
+      "A news website made using GNews.io API and clicking and tabs in the navigation bar you can change the category of news it's responsive and user friendly",
+    technologies: ["HTML", "TailwindCSS", "ReactJS", "GnewsAPI"],
+    link:"https://aconewsportal.vercel.app"
   },
   
 ];
